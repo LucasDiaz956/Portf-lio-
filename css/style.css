@@ -1,0 +1,350 @@
+body{
+    margin: 0;
+    background-color: #EEEEEE;
+    font-family: 'Courier New', Courier, monospace, Helvetica ,arial, sans-serif;
+}
+
+header{
+    background-color: #4F709C;
+    text-align: center;
+    position: relative;
+    bottom: 19px;
+    padding-top: 10px;
+}
+
+header a{
+    text-decoration: none;
+    display: inline-block;
+    inline-size: 300px;
+}
+
+h1{
+    color:black;
+    height: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+h2{
+    color: black;
+    text-align: left;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+
+/*TAGS*/
+
+.menu{
+    display: inline-block;
+    padding: 15px 40px;
+    
+}
+
+.img-lucas{
+    border-radius: 50%;
+    max-width: 300px;
+    width: auto;
+    max-height: 300px;
+    height: auto;
+    border: solid #4F709C;
+    display: block;
+    margin: auto;
+}
+
+.download-btn{
+    background-color: #4F709C;
+    color: white;
+    padding: 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 75px;
+    transition: .2s;
+}
+.download-btn:hover{
+    background-color: #294575;
+    box-shadow: 0 0 15px #708ec2;
+}
+
+.eng-sftw{
+    color: #4F709C;
+}
+
+.exp{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #4F709C;
+    border-radius: 20px;
+    margin-right: 45%;
+    margin-left: 45%;
+    color: white;
+}
+
+.sobre-mim{
+    text-align: center;
+    margin-right: 37%;
+    margin-left: 37%;
+}
+
+.exp-container{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.brachil{
+    width: 500px;
+    height: 300px;
+    background-color: #4F709C;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .2s;
+}
+.brachil-txt{
+    font-size: 1.5rem;
+    color: white;
+}
+.brachil:hover{
+    background-color: #294575;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #708ec2;
+}
+
+
+.eldorado-txt{
+    font-size: 1.5rem;
+    color: white;
+}
+.eldorado{
+    width: 500px;
+    height: 300px;
+    background-color: #4F709C;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .2s;
+}
+.eldorado:hover{
+    background-color: #294575;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #708ec2;
+}
+
+.habilidades-txt{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #4F709C;
+    border-radius: 20px;
+    margin-right: 45%;
+    margin-left: 45%;
+    color: white;
+}
+.habilidades-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.js{
+    width: 100px;
+    height: 100px;
+}
+.js-img{
+    width: 100px;
+    height: 100px;
+}
+
+.css{
+    width: 100px;
+    height: 100px;
+}
+.css-img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.html{
+    width: 118px;
+    height: 118px;
+}
+.html-img{
+    width: 118px;
+    height: 118px;
+}
+
+.start-up-txt{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #4F709C;
+    border-radius: 20px;
+    margin-right: 45%;
+    margin-left: 45%;
+    color: white;
+}
+.stt-up{
+    border-radius: 5px;
+    text-align: center;
+    margin: 50px 30% 150px 30%;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    transition: .2s;
+    background-color: #4F709C;
+    color: white;
+}
+.stt-up:hover{
+    background-color: #294575;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #708ec2;
+}
+
+.comp-text{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #4F709C;
+    border-radius: 20px;
+    margin-right: 45%;
+    margin-left: 45%;
+    color: white;
+}
+.comp-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.trab{
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+
+}
+.trab-box{
+    border: 1px solid white;
+    margin: 50px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 7px;
+    transition: .2s;
+    background-color: #4F709C;
+}
+.trab-box:hover{
+    background-color:#294575;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #708ec2;
+}
+
+.pratic{
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+}
+.pratic-box{
+    border: 1px solid white;
+    margin: 50px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 7px;
+    transition: .2s;
+    background-color: #4F709C;
+}
+.pratic-box:hover{
+    background-color:#294575;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #708ec2;
+}
+
+.org{
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+}
+.org-box{
+    border: 1px solid white;
+    margin: 50px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 7px;
+    transition: .2s;
+    background-color: #4F709C;
+}
+.org-box:hover{
+    background-color:#294575;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #708ec2;
+}
+
+.comunic{
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+}
+.comunic-box{
+    border: 1px solid white;
+    margin: 50px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 7px;
+    transition: .2s;
+    background-color: #4F709C;
+}
+.comunic-box:hover{
+    background-color: #294575;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #708ec2;
+}
+
+.bottom-container{
+    background-color: #4F709C;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
+.insta-img{
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    transition: .2s;
+}
+.insta-img:hover{
+    transform: scale(1.05);
+}
+
+.linkedin-img{
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    transition: .2s;
+}
+.linkedin-img:hover{
+    transform: scale(1.05);
+}
+
+.github-img{
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    transition: .2s;
+}
+.github-img:hover{
+    transform: scale(1.05);
+}

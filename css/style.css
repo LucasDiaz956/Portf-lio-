@@ -79,11 +79,10 @@ p{
 .exp{
     text-align: center;
     margin-top: 100px;
-    background-color: #4F709C;
     border-radius: 20px;
     margin-right: 45%;
     margin-left: 45%;
-    color: white;
+    color: #4F709C;
 }
 
 .sobre-mim{
@@ -140,11 +139,10 @@ p{
 .habilidades-txt{
     text-align: center;
     margin-top: 100px;
-    background-color: #4F709C;
     border-radius: 20px;
     margin-right: 45%;
     margin-left: 45%;
-    color: white;
+    color: #4F709C;
 }
 .habilidades-box{
     display: flex;
@@ -185,11 +183,10 @@ p{
 .start-up-txt{
     text-align: center;
     margin-top: 100px;
-    background-color: #4F709C;
     border-radius: 20px;
     margin-right: 45%;
     margin-left: 45%;
-    color: white;
+    color: #4F709C;
 }
 .stt-up{
     border-radius: 5px;
@@ -212,11 +209,10 @@ p{
 .comp-text{
     text-align: center;
     margin-top: 100px;
-    background-color: #4F709C;
     border-radius: 20px;
     margin-right: 45%;
     margin-left: 45%;
-    color: white;
+    color: #4F709C;
 }
 .comp-box{
     display: flex;
